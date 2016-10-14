@@ -2,4 +2,5 @@ build:
   image: golang
   commands:
     - go build helloworld.go
+    - go run helloworld.go
     - ./helloworld
